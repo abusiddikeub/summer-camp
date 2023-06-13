@@ -46,7 +46,7 @@ useEffect(()=>{
 // jwt server side theka data clinet side anchi---
               //  if(currentUser){
 
-              //   axios.post('http://localhost:5000/jwt',{
+              //   axios.post('https://assignment-12-abusiddikeub.vercel.app/jwt',{
               //     email:currentUser.email
               //   })
               //   .then(data =>{

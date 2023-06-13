@@ -8,11 +8,11 @@ const ManageClasses = () => {
 
 const {user} = useContext(AuthContext)
   const { data: users = [], refetch } = useQuery(["users"], async () => {
-    const res = await fetch("http://localhost:5000/users");
+    const res = await fetch("https://assignment-12-abusiddikeub.vercel.app/users");
     return res.json();
   });
    const handlePending=(item) =>{
-  fetch(`http://localhost:5000/users/pending/${item._id}`,{
+  fetch(`https://assignment-12-abusiddikeub.vercel.app/users/pending/${item._id}`,{
     method:"PATCH"
   })
   .then(res =>res.json())
@@ -33,7 +33,7 @@ const {user} = useContext(AuthContext)
 
  }
  const handleApprove=(user) =>{
-  fetch(`http://localhost:5000/users/approve/${item._id}`,{
+  fetch(`https://assignment-12-abusiddikeub.vercel.app/users/approve/${item._id}`,{
     method:"PATCH"
   })
   .then(res =>res.json())

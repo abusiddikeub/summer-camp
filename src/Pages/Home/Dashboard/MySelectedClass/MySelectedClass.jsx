@@ -18,7 +18,7 @@ const MySelectedClass = () => {
     }).then((result) => {
       if (result.isConfirmed) {
       // delete korer option --------------
-      fetch(`http://localhost:5000/select/${item._id}`,{
+      fetch(`https://assignment-12-abusiddikeub.vercel.app/select/${item._id}`,{
         method:'DELETE',
       })
       .then(res=>res.json())

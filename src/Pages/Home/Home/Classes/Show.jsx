@@ -20,7 +20,7 @@ const Show = ({ item }) => {
     
     // if (user && user.email) {
     //   const selectItem = {item: _id,name,image,price,email : user.email}
-    //   fetch("http://localhost:5000/select",{
+    //   fetch("https://assignment-12-abusiddikeub.vercel.app/select",{
     //     method:'POST',
     //     headers:{
     //       'content-type':'application/json'
@@ -50,7 +50,7 @@ const Show = ({ item }) => {
   const functionOne =(item) =>{
     if (user && user.email) {
       const selectItem = {item: _id,name,image,price,email : user.email}
-      fetch("http://localhost:5000/select",{
+      fetch("https://assignment-12-abusiddikeub.vercel.app/select",{
         method:'POST',
         headers:{
           'content-type':'application/json'

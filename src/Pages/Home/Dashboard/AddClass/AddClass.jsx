@@ -44,7 +44,7 @@ const onSubmit = (data) => {
            
           };
       
-          fetch('http://localhost:5000/instructor',{
+          fetch('https://assignment-12-abusiddikeub.vercel.app/instructor',{
             method:'POST',
             headers:{
               'content-type':'application/json'

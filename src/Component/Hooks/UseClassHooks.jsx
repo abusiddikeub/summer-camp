@@ -7,8 +7,8 @@ const UseClassHooks = () => {
   const [loading,setLoading] = useState(true)
 
   useEffect(() => {
-    // fetch("http://localhost:5000/menu")
-    fetch("http://localhost:5000/instructor")
+    // fetch("https://assignment-12-abusiddikeub.vercel.app/menu")
+    fetch("https://assignment-12-abusiddikeub.vercel.app/instructor")
       .then((res) => res.json())
       .then(data =>{
                setClasses(data)})

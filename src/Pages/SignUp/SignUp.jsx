@@ -31,7 +31,7 @@ const SignUp = () => {
             image: data.photoURL,
             role:"student"
           };
-          fetch("http://localhost:5000/users", {
+          fetch("https://assignment-12-abusiddikeub.vercel.app/users", {
             method: "POST",
             headers: {
               "content-type": "application/json",

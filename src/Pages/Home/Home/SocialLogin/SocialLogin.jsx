@@ -16,7 +16,7 @@ const SocialLogin = () => {
       const loggedInUser = result.user;
     
       const users = {name: loggedInUser.displayName, email: loggedInUser.email ,image:loggedInUser.photoURL}
-      fetch('http://localhost:5000/users',{
+      fetch('https://assignment-12-abusiddikeub.vercel.app/users',{
         method:'POST',
         headers:{
           'content-type':'application/json'

@@ -8,7 +8,7 @@ const InstractorHook = () => {
 const { refetch, data:instructor = [] } = useQuery({
                              queryKey: ['instructor',user?.email],
                              queryFn: async()=>{
-                     const res = await fetch(`http://localhost:5000/instructor?email=${user?.email}`,)
+                     const res = await fetch(`https://assignment-12-abusiddikeub.vercel.app/instructor?email=${user?.email}`,)
                      return res.json()
                      
                              },

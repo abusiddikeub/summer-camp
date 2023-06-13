@@ -9,7 +9,7 @@ const useSelect = () => {
     queryKey: ["select", user?.email],
     queryFn: async () => {
       const res = await fetch(
-        `http://localhost:5000/select?email=${user?.email}`
+        `https://assignment-12-abusiddikeub.vercel.app/select?email=${user?.email}`
       );
       return res.json();
     },
