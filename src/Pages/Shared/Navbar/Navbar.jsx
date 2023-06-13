@@ -79,6 +79,7 @@ const Navbar = () => {
 
                   <div className="ml-5 p-2">
                     <ProfilePhoto></ProfilePhoto> 
+                    
                   </div>
 
                   <div

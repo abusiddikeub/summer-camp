@@ -5,6 +5,7 @@ import SliderPage from '../SliderPage/SliderPage';
 import PopularClass from './PopularClass/PopularClass';
 import PopularInstructor from './PopularInstructor/PopularInstructor';
 import ContactPage from './ContactPage/ContactPage';
+import ExtraSection from './Extra section/ExtraSection';
 
 const Home = () => {
                return (
@@ -14,7 +15,8 @@ const Home = () => {
                                 <SliderPage></SliderPage>   
                                 <PopularClass></PopularClass> 
                                 <ContactPage></ContactPage>
-                                <PopularInstructor></PopularInstructor>   
+                                <PopularInstructor></PopularInstructor> 
+                                <ExtraSection></ExtraSection> 
                               </div>
                );
 };
