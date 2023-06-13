@@ -7,7 +7,7 @@ const Classes = () => {
   const [Classes] = UseClassHooks();
 
   return (
-    <div className="grid md:grid-cols-3">
+    <div className="grid md:grid-cols-3 gap-10 mb-36">
       {Classes.map((item) => (
         <Show key={item._id} item={item}
         ></Show>

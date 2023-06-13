@@ -18,33 +18,7 @@ const Show = ({ item }) => {
     functionOne();
     functionTwo();
     
-    // if (user && user.email) {
-    //   const selectItem = {item: _id,name,image,price,email : user.email}
-    //   fetch("https://assignment-12-abusiddikeub.vercel.app/select",{
-    //     method:'POST',
-    //     headers:{
-    //       'content-type':'application/json'
-    //     },
-    //     body:JSON.stringify(selectItem)
-    //   })
-    //     .then((res) => res.json())
-    //     .then((data) => {
-    //       console.log(data);
-    //       if (data.insertedId) {
-    //         refetch();
-    //         Swal.fire({
-    //           position: "top-end",
-    //           icon: "success",
-    //           title: "Your work has been select",
-    //           showConfirmButton: false,
-    //           timer: 1500,
-    //         });
-    //       }
-    //     });
-    // }
-    // else{
-    //   alert('you have not work')
-    // }
+
   };
 
   const functionOne =(item) =>{
@@ -82,7 +56,7 @@ const Show = ({ item }) => {
   }
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-96 bg-base-100 shadow-xl ">
       <figure className="px-10 pt-10">
         <img src={image} alt="" className="rounded-xl" />
       </figure>

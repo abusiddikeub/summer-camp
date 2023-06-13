@@ -11,9 +11,12 @@ import 'aos/dist/aos.css';
 const Banner = () => {
   return (
                <Carousel className=" text-center ">
-      <div>
+      <div >
         <img src={img2} />
-  
+    <div className="absolute bottom-0 left-0 top-72 mb-10 ">
+    <h3 className="text-2xl font-bold">Yoga is a practice that connects the body, breath, and mind. It uses physical postures, <br /> breathing exercises, and meditation to improve overall health. Yoga was developed as a spiritual practice thousands of years ago.</h3>
+    <button className="btn btn-outline btn-secondary mb-4">Buy Now</button>
+    </div>
       </div>
       <div>
         <img src={img1} />
