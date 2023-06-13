@@ -13,6 +13,7 @@ const Banner = () => {
                <Carousel className=" text-center ">
       <div>
         <img src={img2} />
+  
       </div>
       <div>
         <img src={img1} />

@@ -7,9 +7,11 @@
 4.packages install and use 
 5.github push
 
+
 # packages Use : 
 1.TanStacak Query
 2.swiper
+3.React hook-from
  
  # live site link : 
  

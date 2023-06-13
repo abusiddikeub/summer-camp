@@ -26,7 +26,7 @@ const Navbar = () => {
   };
   return (
     <Container>
-      <div className="navbar  z-10 bg-opacity-30 bg-black text-white w-[1100px] ">
+      <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white w-[1100px] ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -78,7 +78,7 @@ const Navbar = () => {
                   </div>
 
                   <div className="ml-5 p-2">
-                    <ProfilePhoto></ProfilePhoto>
+                    <ProfilePhoto></ProfilePhoto> 
                   </div>
 
                   <div
